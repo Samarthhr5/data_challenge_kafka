@@ -9,3 +9,6 @@ com/myapp/kafka/WeatherDataConsumerApp.java
  com.myapp.kafka.WeatherDataConsumerApp$ConsumerThread
 com/myapp/kafka/deserializer/WeatherDataDeserializer.java
  com.myapp.kafka.deserializer.WeatherDataDeserializer
+com/myapp/kafka/WeatherDataConsumerAppDb.java
+ com.myapp.kafka.WeatherDataConsumerAppDb
+ com.myapp.kafka.WeatherDataConsumerAppDb$ConsumerThread

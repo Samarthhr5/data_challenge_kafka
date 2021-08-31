@@ -154,7 +154,7 @@ public class WeatherData {
 
     public WeatherData parse() throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        WeatherData example = objectMapper.readValue(new File("C:\\Users\\Samarth\\WeatherDataKafka\\weather-data-producer\\src\\main\\resources\\weather.json"), WeatherData.class);
+        WeatherData example = objectMapper.readValue(new File("C:\\Users\\Samarth\\data_challenge_kafka\\weather-data-producer\\src\\main\\resources\\weather.json"), WeatherData.class);
         System.out.println("read data is "+example);
         return example;
     }

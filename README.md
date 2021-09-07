@@ -43,3 +43,9 @@ Kafka Prodcuer is sending Data events(weather.json) and creating Topics,partions
 Kafka Consumer is fetching those data and with the help of Sink connector we are pushing Data to MySql DB
 
 > Run consumer app - WeatherDataConsumerApp.java
+
+### Kafka with Docker:
+
+Run entire zookeeper and Kafka in Docker Compose
+
+> docker-compose up
